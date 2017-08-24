@@ -48,6 +48,7 @@
 		79C373BF3071C5671EBFF921 /* Pods-Pokeedex.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pokeedex.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pokeedex/Pods-Pokeedex.release.xcconfig"; sourceTree = "<group>"; };
 		9AAAE9A7CF3B6E1B26560B25 /* Pods-Pokeedex.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pokeedex.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pokeedex/Pods-Pokeedex.debug.xcconfig"; sourceTree = "<group>"; };
 		C084444201D20DA76E29EEB0 /* Pods_Pokeedex.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pokeedex.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEA86EBD1F4B4D8E00C4D708 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				65955B441F38F9CE00985ECB /* csv1.swift */,
+				FEA86EBD1F4B4D8E00C4D708 /* Constants.swift */,
 			);
 			name = Util;
 			sourceTree = "<group>";
@@ -305,6 +307,7 @@
 				6510890C1F34F0CC00DB6062 /* AppDelegate.swift in Sources */,
 				6510832B1F3B98DF00017CDA /* PokemonViewStyle.swift in Sources */,
 				6510832D1F3B9CDE00017CDA /* PokemonImageStyle.swift in Sources */,
+				FEA86EBE1F4B4D8E00C4D708 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
